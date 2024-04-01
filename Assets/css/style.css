@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-main-color {
+    background-color: transparent !important;
+}
+
+.bg-second-color {
+    background-color: #FEA116 !important;
+}
+
+.text-main-color {
+    color: #FEA116 !important;
+}
+.card-subtitle {
+    font-weight: bold;
+    color: black !important;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg-main-color-white {
+    background-color: white !important;
+}
+
+.with-before::before {
+    content: "";
+    width: 56px;
+    height: 2px;
+    background-color: #FEA116 !important;
+    position: absolute;
+    top: 25px;
+    right: -60px;
+}
+
+.food-menu-image {
+    width: 88px;
+    height: auto;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #FEA116 !important;
+}
+.navbar:hover,
+.navbar:focus,
+.navbar:not(:hover):not(:focus) {
+  background-color:#0f172b !important; 
+}
+.card {
+    transition: 0.3s ease;
+
+}
+.card:hover {
+    background-color: #FEA116;
+    color: white !important;
+}
+.card:hover .fa-solid,
+.card:hover h6 {
+    color: white !important;
+}
+.btn-warning {
+    color: white;
+}
+
+.header-section {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('../img/bg-hero.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-body {
+    margin: 0 5% 5%;
+    height: 100vh;
+}
+
+.header-body img {
+    max-width: 400px;
+    max-height: 400px;
+    animation: rotate 50s linear infinite;
+}
+
+.he {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
